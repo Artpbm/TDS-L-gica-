@@ -1,0 +1,18 @@
+programa 
+{
+	funcao inicio()
+	{
+		cadeia nome,endereco,cidade
+		
+		escreva("Digite seu nome: ")
+		leia(nome)
+		escreva("Digite sua endereco: ")
+		leia(endereco)
+		escreva("Digite sua cidade: ")
+		leia(cidade)
+		
+		limpa()
+		
+		escreva("olá, ",nome,",você mora em ",cidade,"na rua ",endereco)
+	}
+}

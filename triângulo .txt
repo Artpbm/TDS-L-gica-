@@ -1,0 +1,31 @@
+programa 
+{
+	
+	funcao inicio()
+	{
+	  real lado1,lado2,lado3
+	  
+	  escreva("Digite o primeiro lado: ")
+	  leia(lado1)
+	  escreva("Digite o segundo lado: ")
+	  leia(lado2)
+	  escreva("Digite o terceiro lado: ")
+	  leia(lado3)
+	  
+	  se(lado1 == lado2 e lado2 == lado3 e lado1 == lado3){
+	  escreva("Seu triângulo é equilátero")
+	  }
+	  senao se(lado1 != lado2 e lado2 != lado3 e lado1 != lado3){
+	  escreva("Seu triângulo é escaleno")
+	  }
+	  senao se(lado1 != lado2 e lado2 == lado3 e lado1 != lado3){
+	  escreva("Seu triângulo é isóceles")
+	  }
+	  senao{
+	        escreva("Não forma um triângulo")
+	  }
+	  
+	  
+		
+	}
+}

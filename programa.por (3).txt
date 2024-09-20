@@ -1,0 +1,37 @@
+programa 
+{
+	
+	funcao inicio()
+	{
+		real perimetro, diametro, pi
+		
+		escreva("Informe o diametro: ")
+		leia(diametro)
+		escreva("Informe o perimetro: ")
+		leia(perimetro)
+		
+		limpa()
+		
+		pi = perimetro/diametro
+		
+		escreva("o pi é: ",pi)
+		
+		
+		
+		
+		
+	    
+		
+      
+	
+		
+		
+		
+		
+		
+	
+	
+	
+		
+	}
+}

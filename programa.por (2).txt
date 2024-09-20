@@ -1,0 +1,19 @@
+programa 
+{
+	funcao inicio()
+	{
+		caracter asterisco = '*'
+		
+		escreva("*","\n")
+		escreva("**","\n")
+		escreva("***","\n")
+		escreva("****","\n")
+		escreva("*****","\n")
+		leia(asterisco)
+		
+	
+	
+		
+		
+	}
+}
